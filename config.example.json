@@ -1,0 +1,15 @@
+{
+  "serial_port": "COM1",
+  "baud_rate": 9600,
+  "fbus_id": "01",
+  "test_duration_s": 30.0,
+  "target_pressure_mbar": 50.0,
+  "pass_threshold_mbar_s": 0.1,
+  "poll_interval_s": 1.0,
+  "ready_timeout_s": 60.0,
+  "max_wait_s": 300.0,
+  "excel_file": "leak_test_results.xlsx",
+  "simulate": false,
+  "sim_speed": 10.0,
+  "last_operator": ""
+}

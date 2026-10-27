@@ -1,0 +1,14 @@
+# Local settings and production data -- never commit
+config.json
+*.xlsx
+!examples/*.xlsx
+~$*.xlsx
+
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+*.spec
+.venv/
+venv/
