@@ -2,7 +2,9 @@
 
 A small desktop app for running pressure-decay leak tests on a **Furness Controls F-BUS** leak tester (developed against the FCO780) over USB/RS-232. Each result is logged to a formatted Excel workbook with a live summary sheet and charts.
 
-![Screenshot](docs/screenshot.png)
+![Demo: two simulated tests, one pass and one fail](docs/demo.gif)
+
+*Simulation mode: the operator scans a device, the test runs (fill → stabilise → test → vent), and the result is logged to Excel.*
 
 ## Features
 
